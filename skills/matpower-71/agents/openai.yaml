@@ -1,0 +1,4 @@
+interface:
+  display_name: "MATPOWER 7.1"
+  short_description: "MATPOWER 7.1 coding and source guidance"
+  default_prompt: "Use $matpower-71 to write, review, or modify MATLAB code that relies on MATPOWER 7.1."
