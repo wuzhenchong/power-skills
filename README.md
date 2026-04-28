@@ -1,6 +1,6 @@
 # Power Simulation Skills
 
-This repository is a skill library for power simulation and power-system calculation workflows.
+This repository provides agent skills for power simulation software, helping Codex/Claude-style agents work with tools such as MATPOWER for power-system analysis and calculation workflows.
 
 The current first skill is a MATPOWER 7.1 skill for Codex/Claude-style agents. Future work is expected to add more simulation-oriented skills, including a pandapower skill, while keeping each skill isolated under its own directory.
 
@@ -23,6 +23,21 @@ doc/
 ```
 
 The publishable MATPOWER skill is `skills/matpower-71`. Chinese files are maintenance aids and are intentionally kept outside the official skill directory.
+
+## Requirements
+
+- MATLAB 7.5 (R2007b) or later, or GNU Octave 4 or later.
+- MATPOWER 7.1 installed and available on the MATLAB/Octave path.
+
+## Install
+
+Install the MATPOWER 7.1 skill directly from GitHub with a compatible skill installer:
+
+```text
+$skill-installer install https://github.com/wuzhenchong/power-skills/tree/main/skills/matpower-71
+```
+
+For manual installation, copy `skills/matpower-71` into your local agent skills directory, then restart the agent so it reloads skill metadata.
 
 ## Roadmap
 

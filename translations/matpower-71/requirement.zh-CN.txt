@@ -1,0 +1,5 @@
+# 依赖要求
+
+- MATLAB 7.5 (R2007b) 或更高版本，或 GNU Octave 4 或更高版本。
+- 已安装 MATPOWER 7.1，并且 MATLAB/Octave 路径能够解析到它。
+- 可选：如果工作流依赖特定求解器，可安装 MATLAB Optimization Toolbox 或其他 MATPOWER 支持的求解器。

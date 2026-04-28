@@ -1,0 +1,5 @@
+# Requirements
+
+- MATLAB 7.5 (R2007b) or later, or GNU Octave 4 or later.
+- MATPOWER 7.1 installed and available on the MATLAB/Octave path.
+- Optional: MATLAB Optimization Toolbox or other MATPOWER-supported solvers for workflows that rely on those solvers.
